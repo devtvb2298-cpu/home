@@ -1,1 +1,4 @@
 jlink --module-path "target/modules;%JAVA_HOME%\jmods" --add-modules site.kpeclub.launcher,javafx.controls,javafx.fxml,jdk.httpserver,java.desktop --output target/runtime --strip-debug --compress=2 --no-header-files --no-man-pages
+
+
+winget install EclipseAdoptium.Temurin.21.JDK
